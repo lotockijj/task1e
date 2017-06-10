@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace task1e
 {
-    class Client
+    public class Client
     {
         public static object IntermediateSerializer { get; private set; }
         public static object ExampleData { get; private set; }
